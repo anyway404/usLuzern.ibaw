@@ -1,17 +1,10 @@
+import { Link } from "react-router-dom"; // Importiere Link von react-router-dom
 import Luzern_intro from "../assets/img/luzern_intro.jpg";
 import Sirup from "../assets/img/Sirup.jpg";
 
 export default function Example() {
   return (
     <>
-      {/*
-          This example requires updating your template:
-  
-          ```
-          <html class="h-full bg-gray-50">
-          <body class="h-full">
-          ```
-        */}
       <br />
       <br />
       <div className="grid h-[500px] grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1">
@@ -28,12 +21,12 @@ export default function Example() {
             <p className="mt-1 text-2xl font-medium text-white">
               Gerne stellen wir uns Ihnen vor
             </p>
-            <a
-              href="/about"
+            <Link
+              to="/about" // Verwende to anstelle von href
               className="mt-4 rounded-md bg-[#E02F1F] px-4 py-2.5 text-sm font-medium text-gray-900 hover:bg-[#889AAA]"
             >
-              Über usLuzern
-            </a>
+              Über uns
+            </Link>
           </div>
         </div>
         <div className="relative flex">
@@ -47,14 +40,14 @@ export default function Example() {
               Stöbern Sie gerne in unserem Shop
             </h2>
             <p className="mt-1 text-2xl font-medium text-white">
-              Unsere vielfälltigen Produkte
+              Unsere vielfältigen Produkte
             </p>
-            <a
-              href="/shop"
+            <Link
+              to="/shop" // Verwende to anstelle von href
               className="mt-4 rounded-md bg-[#E02F1F] px-4 py-2.5 text-sm font-medium text-gray-900 hover:bg-[#889AAA]"
             >
               Zum Shop
-            </a>
+            </Link>
           </div>
         </div>
       </div>
