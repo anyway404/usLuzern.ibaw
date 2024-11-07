@@ -1,4 +1,4 @@
-import Luzern_intro from "../assets/img/Luzern_intro.jpg";
+import Luzern_intro from "../assets/img/luzern_intro.jpg";
 import Sirup from "../assets/img/Sirup.jpg";
 
 export default function Example() {
