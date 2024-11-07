@@ -1,5 +1,5 @@
 import React from "react";
-import PlaceholderImg from "../assets/img/PlaceholderImg.png";
+import PlaceholderImg from "../assets/img/placeholderImg.png";
 
 const partners = [
   {
